@@ -1,0 +1,28 @@
+# ========== Requisitos principais ==========
+ultralytics==8.2.103    # Framework YOLOv8 (detecção, treino, validação)
+torch==2.1.0            # Backend PyTorch
+torchvision==0.16.0     # Suporte a datasets/imagens no PyTorch
+opencv-python           # Manipulação de imagens e vídeos
+numpy                   # Operações numéricas
+pandas                  # Manipulação de CSVs (contagem, logs)
+matplotlib              # Visualização opcional (curvas de treino, etc.)
+
+# ========== Utilitários ==========
+tqdm                    # Barras de progresso no Python
+ipykernel               # Necessário para notebooks Jupyter/Colab
+jupyter                 # Caso queira rodar localmente
+
+# ========== Rotulagem (opcional) ==========
+labelImg                # Ferramenta desktop offline (pip install labelImg)
+# makesense.ai é web → não precisa instalar
+
+# ========== Controle de versões ==========
+# python>=3.10
+
+streamlit
+ultralytics==8.2.103
+opencv-python-headless
+torch>=2.1.0
+torchvision>=0.16.0
+numpy
+Pillow

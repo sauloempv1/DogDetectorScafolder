@@ -1,0 +1,8 @@
+path: /mnt/c/Users/Aluno/Downloads/dog_detector_scaffold/datasets/
+
+train: dog_aug/images/train
+val: dog/images/val
+test: dog/images/test
+
+names:
+  0: dog
